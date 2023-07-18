@@ -1,16 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
+#include <unistd.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * print_alphabet - Entry point
+ * Return:0
  */
 
-int main(void)
+void print_alphabet(void)
 {
+	char c = 'a';
 
-printf("_putchar\n");
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
 
-return (0);
+	}
+	_putchar('\n');
+
 }
