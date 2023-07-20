@@ -1,25 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - causes an infinite loop
- * Return: 0
+ * _isdigit - check if numbers are 0 - 9
+ * @c: char to be checked
+ *
+ * Return: 0 or 1
  */
 
-int main(void)
+int _isdigit(int c)
 {
- int i;
-
- printf("Infinite loop incoming :(\n");
-
- i = 0;
-
- /*while (i < 10)*/
- /*{*/
- /* putchar(i);*/
- /*}*/
-
- printf("Infinite loop avoided! \\o/\n");
-
- return (0);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }
-
