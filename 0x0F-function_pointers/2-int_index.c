@@ -1,4 +1,9 @@
 #include "function_pointers.h"
+<<<<<<< HEAD
+=======
+#include <stdio.h>
+
+>>>>>>> e7efd92fd56c7c2dacd6a757c12ff51e27635c55
 /**
  * int_index - return index place if comparison = true, else -1
  * @array: array
@@ -20,4 +25,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	}
 	return (-1);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e7efd92fd56c7c2dacd6a757c12ff51e27635c55

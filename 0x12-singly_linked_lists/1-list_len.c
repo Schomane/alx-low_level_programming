@@ -9,6 +9,7 @@
  */
 size_t list_len(const list_t *h)
 {
+<<<<<<< HEAD
  size_t n = 0;
 
  while (h)
@@ -17,5 +18,14 @@ size_t list_len(const list_t *h)
  h = h->next;
  }
  return (n);
+=======
+size_t n = 0;
+while (h)
+{
+n++;
+h = h->next;
+}
+return (n);
+>>>>>>> e7efd92fd56c7c2dacd6a757c12ff51e27635c55
 }
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #include<stdlib.h>
+=======
+#include <stdlib.h>
+>>>>>>> e7efd92fd56c7c2dacd6a757c12ff51e27635c55
 #include "lists.h"
 
 /**
@@ -7,6 +11,7 @@
  */
 void free_list(list_t *head)
 {
+<<<<<<< HEAD
  list_t *temp;
 
  while (head)
@@ -16,5 +21,15 @@ void free_list(list_t *head)
  free(head);
  head = temp;
  }
+=======
+list_t *temp;
+while (head)
+{
+temp = head->next;
+free(head->str);
+free(head);
+head = temp;
+}
+>>>>>>> e7efd92fd56c7c2dacd6a757c12ff51e27635c55
 }
 
