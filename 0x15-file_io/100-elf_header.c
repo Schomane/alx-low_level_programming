@@ -69,6 +69,7 @@ void print_magic(unsigned char *e_ident)
  * @e_ident: A pointer to an array containing the ELF class.
  */
 void print_class(unsigned char *e_ident);
+
 {
 	printf(" Class: ");
 
